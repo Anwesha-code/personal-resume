@@ -8,7 +8,7 @@ const reactions = [
   "Ooh, hello!",
   "*waves* Welcome!",
   "Thanks for stopping by!",
-  "Chapter 47 was SO good.",
+  "What are you doing here? Just kidding, hi!",
 ];
 
 interface ChibiCharacterProps {
