@@ -3,7 +3,8 @@
     { "id": "programming", "label": "Programming", "icon": "📘" },
     { "id": "ml", "label": "Machine Learning", "icon": "🔮" },
     { "id": "devops", "label": "DevOps & Tools", "icon": "📦" },
-    { "id": "core-cs", "label": "Core CS", "icon": "🧩" }
+    { "id": "core-cs", "label": "Core CS", "icon": "🧩" },
+    { "id": "networking", "label": "Networking", "icon": "📡" }
   ],
   "items": [
     {

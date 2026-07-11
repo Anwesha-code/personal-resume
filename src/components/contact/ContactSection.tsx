@@ -39,7 +39,7 @@ export default function ContactSection() {
         <SectionHeading
           eyebrow="Mailbox.exe"
           title="Send Me a Letter"
-          description="Drop a note in the mailbox — it opens your email app with everything filled in, ready to send."
+          description="Drop a note in the mailbox, it opens your email app with everything filled in, ready to send."
         />
 
         <PixelWindow appName="mailbox" icon="✉️">

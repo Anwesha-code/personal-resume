@@ -5,7 +5,7 @@
       "company": "LaunchEd Global",
       "role": "Machine Learning Intern",
       "location": "Remote",
-      "period": "Jun 2025 – Aug 2025",
+      "period": "Jun 2025 - Aug 2025",
       "icon": "🧪",
       "points": [
         "Performed EDA, preprocessing, and feature engineering on structured datasets.",
@@ -21,11 +21,11 @@
       "company": "Reliance Power Limited",
       "role": "IT Intern",
       "location": "Shahjahanpur, Uttar Pradesh",
-      "period": "May 2026 – Jul 2026",
+      "period": "May 2026 - Jul 2026",
       "icon": "🏭",
       "points": [
         "Received hands-on training in Networking and Linux Operating System administration.",
-        "Working directly on company networks and network security."
+        "Working on company networks and network security."
       ],
       "order": 5
     }

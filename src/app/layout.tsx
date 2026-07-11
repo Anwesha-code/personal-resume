@@ -39,7 +39,7 @@ const silkscreen = Silkscreen({
   display: "swap",
 });
 
-const siteUrl = "https://anwesha-portfolio.vercel.app";
+const siteUrl = "https://personal-resume-sandy.vercel.app";
 
 export const metadata: Metadata = {
   metadataBase: new URL(siteUrl),

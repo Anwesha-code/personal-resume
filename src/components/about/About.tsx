@@ -17,7 +17,7 @@ export default function About() {
         <SectionHeading
           eyebrow="Room.exe"
           title="About Me"
-          description="Look around my desk, everything on it means something."
+          description="Click around on my desk, everything on it means something."
         />
 
         <PixelWindow appName="my-room" icon="🛋️">

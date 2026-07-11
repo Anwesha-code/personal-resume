@@ -4,7 +4,8 @@
     { "id": "containers", "label": "Containerization", "icon": "📦" },
     { "id": "database", "label": "Database & Algorithms", "icon": "🗄️" },
     { "id": "networking", "label": "Networking", "icon": "📡" },
-    { "id": "programming", "label": "Programming", "icon": "💻" }
+    { "id": "programming", "label": "Programming", "icon": "💻" },
+    { "id": "Networking", "label": "Networking", "icon": "🔗" }
   ],
   "items": [
     {
@@ -15,11 +16,11 @@
       "icon": "☁️"
     },
     {
-      "id": "rh134",
-      "title": "Red Hat System Administration II (RH134)",
-      "issuer": "Red Hat",
+      "id": "gcp-storage-networking",
+      "title": "GCP Storage and Networking",
+      "issuer": "Coursera",
       "category": "cloud",
-      "icon": "🎩"
+      "icon": "☁️"
     },
     {
       "id": "containers-docker-k8s",
@@ -73,7 +74,7 @@
     {
       "id": "data-analytics",
       "title": "Data Analytics",
-      "issuer": "Certification",
+      "issuer": "Cisco",
       "category": "database",
       "icon": "📊"
     }

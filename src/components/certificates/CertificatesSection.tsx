@@ -27,7 +27,7 @@ export default function CertificatesSection() {
         <SectionHeading
           eyebrow="Badges.exe"
           title="Certificate Collection"
-          description="Sortable badges for everything I've completed. Tap one to see the issuer, or visit the drive for the original documents."
+          description="Tap badges to see the issuer, or visit the drive for the original certificates."
         />
 
         <PixelWindow appName="badge-case" icon="🏅">

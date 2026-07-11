@@ -4,8 +4,8 @@
       "id": "books",
       "icon": "📚",
       "label": "Bookshelf",
-      "title": "Currently reading",
-      "content": "A tall stack of cozy manhwas. Piles are, worryingly, getting huge."
+      "title": "Reading what?",
+      "content": "A tall stack of programming books and cozy manhwas. Piles are, worryingly, getting huge."
     },
     {
       "id": "laptop",
@@ -26,21 +26,14 @@
       "icon": "🌱",
       "label": "Plant",
       "title": "Currently growing",
-      "content": "My Leetcode streak, a very high maintenance plant, testing my patience every single day."
+      "content": "My Leetcode streak, a very high maintenance plant, testing my patience every single day. I am trying my best to keep it alive."
     },
     {
       "id": "notes",
       "icon": "📝",
       "label": "Sticky notes",
       "title": "Quick facts",
-      "content": "CGPA 9.07 · Dean's List (Sem 1, 2, 5, 6) · Based in Lucknow, UP · Won the Project Expo · Love to draw, read, and."
-    },
-    {
-      "id": "dog",
-      "icon": "🐾",
-      "label": "Dog bed",
-      "title": "Team member",
-      "content": "My chihuahua supervises every pull request. Approval rate: questionable, but morale is high."
+      "content": "CGPA 9.07. Dean's List (Sem 1, 2, 5, 6). Based in Lucknow, UP. Winning position at Project Expo. Love to draw, read, and create."
     },
     {
       "id": "gym",
