@@ -5,16 +5,16 @@ import { motion } from "framer-motion";
 import { Download } from "lucide-react";
 import profile from "@data/profile.json";
 import socials from "@data/socials.json";
-import settings from "@data/settings.json";
-import ChibiCharacter from "./ChibiCharacter";
+
+
 import { socialIconMap } from "@/components/ui/socialIconMap";
-import { useIdle } from "@/hooks/useIdle";
+
 import type { SocialLink } from "@/types";
 import { PixelStar } from "@/components/ui/PixelIcons";
 
 export default function Hero() {
   const [roleIndex, setRoleIndex] = useState(0);
-  const isResting = useIdle(settings.idleChibiRestSeconds);
+
   const heroSocials = (socials.items as SocialLink[]).filter((s) => s.showInHero);
 
   useEffect(() => {
@@ -26,7 +26,7 @@ export default function Hero() {
 
   return (
     <section id="home" className="scroll-mt-24 px-3 pt-8 sm:pt-14">
-      <div className="mx-auto grid max-w-5xl items-center gap-8 lg:grid-cols-[1.1fr_0.9fr] lg:gap-4">
+      <div className="mx-auto max-w-3xl">
         <div className="pixel-window px-6 py-8 sm:px-10 sm:py-10">
           <p className="mb-3 flex items-center gap-2 font-chrome text-[11px] uppercase tracking-[0.2em] text-plum">
             <PixelStar size={2} /> {profile.availability}
@@ -78,9 +78,7 @@ export default function Hero() {
           </div>
         </div>
 
-        <div className="pixel-window flex justify-center overflow-visible px-4 py-10">
-          <ChibiCharacter resting={isResting} />
-        </div>
+        
       </div>
     </section>
   );
