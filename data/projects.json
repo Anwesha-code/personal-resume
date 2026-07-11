@@ -1,0 +1,58 @@
+{
+  "items": [
+    {
+      "id": "carbon-emission-forecasting",
+      "title": "Carbon Emission & Energy Forecasting",
+      "tagline": "Predicting a data center's next move, one timestep at a time.",
+      "description": "A time-series forecasting pipeline for data center energy prediction, built around a Bidirectional LSTM (DRNN) to learn temporal dependencies, with hyperparameter tuning via the Ninja Optimization Algorithm (NiOA).",
+      "tech": ["TensorFlow", "LSTM", "Python", "NiOA"],
+      "highlights": [
+        "Designed multi-horizon forecasting: ΔEk(t) = E(t + k) − E(t)",
+        "Enforced strict time-series integrity to avoid data leakage across horizons",
+        "Applied NiOA for hyperparameter tuning instead of manual grid search"
+      ],
+      "challenge": "Multi-horizon forecasting made it easy to accidentally leak future information into training — the pipeline had to be restructured to guarantee strict temporal ordering.",
+      "lesson": "Optimization algorithms borrowed from other fields (like NiOA) can outperform textbook tuning approaches when the search space is large and non-convex.",
+      "github": "https://github.com/Anwesha-code/CarbonEmissionPredictionRNN-NinOA",
+      "demo": "https://anwesha-code.github.io/PBL4-Midterm-Presentation/",
+      "status": "Completed",
+      "icon": "🌍"
+    },
+    {
+      "id": "jenkins-job-template-engine",
+      "title": "Jenkins Job Template Engine",
+      "tagline": "CI/CD pipelines that build themselves.",
+      "description": "A template-based CI automation system that generates Jenkins jobs on demand using Python and Jinja2, with job creation automated through the Jenkins REST API.",
+      "tech": ["Python", "Jinja2", "REST APIs", "YAML", "Jenkins"],
+      "highlights": [
+        "Designed a YAML-driven, reusable pipeline templating system",
+        "Automated Jenkins job creation end-to-end through the REST API",
+        "Developed multi-stage, parameterized CI workflows from a single template source"
+      ],
+      "challenge": "Keeping pipeline templates generic enough to reuse across projects while still allowing per-job parameters without duplicating YAML.",
+      "lesson": "A small, well-designed templating layer removes far more manual Jenkins configuration than expected.",
+      "github": "https://github.com/Anwesha-code/jenkins-job-template-engine",
+      "demo": null,
+      "status": "Completed",
+      "icon": "🤖"
+    },
+    {
+      "id": "data-drift-prediction",
+      "title": "Data Drift Prediction in ML Systems",
+      "tagline": "Catching a model's accuracy before it quietly slips.",
+      "description": "A proactive system that predicts data drift and forecasts model accuracy degradation based solely on input distribution shifts, without needing ground-truth labels.",
+      "tech": ["Python", "Scikit-learn"],
+      "highlights": [
+        "Used the CICIDS 2017 dataset to realistically simulate distribution shift",
+        "Built a modular pipeline architecture for easy integration into existing ML systems",
+        "Predicted accuracy degradation from input distribution alone, ahead of ground truth"
+      ],
+      "challenge": "Detecting meaningful drift (versus normal data noise) without access to labels required careful choice of distributional distance metrics.",
+      "lesson": "Monitoring input distributions is a surprisingly effective early-warning system for silent model decay.",
+      "github": "https://github.com/Anwesha-code/data-drift-prediction-in-ml-models",
+      "demo": null,
+      "status": "Completed",
+      "icon": "📉"
+    }
+  ]
+}

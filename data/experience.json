@@ -1,0 +1,33 @@
+{
+  "items": [
+    {
+      "id": "launched-global",
+      "company": "LaunchEd Global",
+      "role": "Machine Learning Intern",
+      "location": "Remote",
+      "period": "Jun 2025 – Aug 2025",
+      "icon": "🧪",
+      "points": [
+        "Performed EDA, preprocessing, and feature engineering on structured datasets.",
+        "Built and evaluated ML models, improving performance through tuning techniques.",
+        "Documented workflows and results thoroughly for reproducibility.",
+        "Developed a capstone salary-prediction project and won the Project Expo."
+      ],
+      "certificateNote": "Completion certificate available in the verification drive.",
+      "order": 4
+    },
+    {
+      "id": "reliance-power",
+      "company": "Reliance Power Limited",
+      "role": "IT Intern",
+      "location": "Shahjahanpur, Uttar Pradesh",
+      "period": "May 2026 – Jul 2026",
+      "icon": "🏭",
+      "points": [
+        "Received hands-on training in Networking and Linux Operating System administration.",
+        "Working directly on company networks and network security."
+      ],
+      "order": 5
+    }
+  ]
+}

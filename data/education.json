@@ -1,0 +1,34 @@
+{
+  "items": [
+    {
+      "id": "fps",
+      "institution": "Fertilizer Public School",
+      "degree": "Class X",
+      "period": "",
+      "detail": "97.4%",
+      "highlight": "",
+      "icon": "✏️",
+      "order": 1
+    },
+    {
+      "id": "mgcs",
+      "institution": "Mary Gardiner's Convent School",
+      "degree": "Class XII",
+      "period": "",
+      "detail": "90%",
+      "highlight": "",
+      "icon": "📖",
+      "order": 2
+    },
+    {
+      "id": "manipal",
+      "institution": "Manipal University Jaipur",
+      "degree": "B.Tech in Computer Science and Engineering (CSE)",
+      "period": "Expected Jul 2027",
+      "detail": "CGPA: 9.07",
+      "highlight": "Dean's List — Semesters 1, 2, 5 & 6",
+      "icon": "🎓",
+      "order": 3
+    }
+  ]
+}

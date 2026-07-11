@@ -1,0 +1,81 @@
+{
+  "categories": [
+    { "id": "cloud", "label": "Cloud & SysAdmin", "icon": "☁️" },
+    { "id": "containers", "label": "Containerization", "icon": "📦" },
+    { "id": "database", "label": "Database & Algorithms", "icon": "🗄️" },
+    { "id": "networking", "label": "Networking", "icon": "📡" },
+    { "id": "programming", "label": "Programming", "icon": "💻" }
+  ],
+  "items": [
+    {
+      "id": "aws-storage",
+      "title": "AWS Storage",
+      "issuer": "Coursera",
+      "category": "cloud",
+      "icon": "☁️"
+    },
+    {
+      "id": "rh134",
+      "title": "Red Hat System Administration II (RH134)",
+      "issuer": "Red Hat",
+      "category": "cloud",
+      "icon": "🎩"
+    },
+    {
+      "id": "containers-docker-k8s",
+      "title": "Introduction to Containers w/ Docker, Kubernetes & OpenShift",
+      "issuer": "Coursera",
+      "category": "containers",
+      "icon": "📦"
+    },
+    {
+      "id": "db-foundations",
+      "title": "Database Foundations",
+      "issuer": "Oracle Academy",
+      "category": "database",
+      "icon": "🗄️"
+    },
+    {
+      "id": "db-design",
+      "title": "Database Design",
+      "issuer": "Oracle Academy",
+      "category": "database",
+      "icon": "🧱"
+    },
+    {
+      "id": "sql-programming",
+      "title": "SQL Programming",
+      "issuer": "Oracle Academy",
+      "category": "database",
+      "icon": "🔎"
+    },
+    {
+      "id": "daa-nptel",
+      "title": "Design & Analysis of Algorithms",
+      "issuer": "NPTEL",
+      "category": "database",
+      "icon": "🧮"
+    },
+    {
+      "id": "ccna",
+      "title": "CCNA Networking",
+      "issuer": "Cisco",
+      "category": "networking",
+      "icon": "📡"
+    },
+    {
+      "id": "python-essentials",
+      "title": "Python Essentials",
+      "issuer": "Cisco",
+      "category": "programming",
+      "icon": "🐍"
+    },
+    {
+      "id": "data-analytics",
+      "title": "Data Analytics",
+      "issuer": "Certification",
+      "category": "database",
+      "icon": "📊"
+    }
+  ]
+}

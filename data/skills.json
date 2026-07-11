@@ -1,0 +1,170 @@
+{
+  "categories": [
+    { "id": "programming", "label": "Programming", "icon": "📘" },
+    { "id": "ml", "label": "Machine Learning", "icon": "🔮" },
+    { "id": "devops", "label": "DevOps & Tools", "icon": "📦" },
+    { "id": "core-cs", "label": "Core CS", "icon": "🧩" }
+  ],
+  "items": [
+    {
+      "id": "python",
+      "name": "Python",
+      "category": "programming",
+      "icon": "📗",
+      "level": "Advanced",
+      "description": "My go-to spellbook. Used for everything from data pipelines to automation scripts."
+    },
+    {
+      "id": "cpp",
+      "name": "C++",
+      "category": "programming",
+      "icon": "🔩",
+      "level": "Intermediate",
+      "description": "For when things need to be fast and I need to think about memory like it owes me money."
+    },
+    {
+      "id": "c",
+      "name": "C",
+      "category": "programming",
+      "icon": "⚙️",
+      "level": "Intermediate",
+      "description": "Where I learned that pointers are just very confident variables."
+    },
+    {
+      "id": "sql",
+      "name": "SQL",
+      "category": "programming",
+      "icon": "🗄️",
+      "level": "Advanced",
+      "description": "Speaks fluent 'SELECT * FROM my_life WHERE chaos = false'."
+    },
+    {
+      "id": "scikit-learn",
+      "name": "Scikit-learn",
+      "category": "ml",
+      "icon": "🔮",
+      "level": "Advanced",
+      "description": "My crystal ball for building and evaluating classical ML models quickly."
+    },
+    {
+      "id": "tensorflow",
+      "name": "TensorFlow",
+      "category": "ml",
+      "icon": "🧠",
+      "level": "Intermediate",
+      "description": "Used to build a Bidirectional LSTM (DRNN) for multi-horizon energy forecasting."
+    },
+    {
+      "id": "neural-networks",
+      "name": "Neural Networks",
+      "category": "ml",
+      "icon": "✨",
+      "level": "Intermediate",
+      "description": "Teaching machines to recognize patterns I still have to explain to my chihuahua."
+    },
+    {
+      "id": "pandas-numpy",
+      "name": "Pandas & NumPy",
+      "category": "ml",
+      "icon": "🧮",
+      "level": "Advanced",
+      "description": "For EDA, preprocessing, and feature engineering on structured datasets."
+    },
+    {
+      "id": "regression-classification",
+      "name": "Regression & Classification",
+      "category": "ml",
+      "icon": "🎯",
+      "level": "Advanced",
+      "description": "Predicting salaries, drift, and other things that refuse to stay constant."
+    },
+    {
+      "id": "model-evaluation",
+      "name": "Model Evaluation & Tuning",
+      "category": "ml",
+      "icon": "📊",
+      "level": "Intermediate",
+      "description": "Hyperparameter tuning, including with the Ninja Optimization Algorithm (NiOA)."
+    },
+    {
+      "id": "jenkins",
+      "name": "Jenkins",
+      "category": "devops",
+      "icon": "🤖",
+      "level": "Advanced",
+      "description": "Built a template-based CI automation engine that creates jobs via the Jenkins REST API."
+    },
+    {
+      "id": "docker",
+      "name": "Docker",
+      "category": "devops",
+      "icon": "📦",
+      "level": "Intermediate",
+      "description": "Shipping containers, minus the actual shipping. Certified via Coursera."
+    },
+    {
+      "id": "git",
+      "name": "Git & GitHub",
+      "category": "devops",
+      "icon": "🌿",
+      "level": "Advanced",
+      "description": "Branching out (literally) since forever. Commit messages occasionally poetic."
+    },
+    {
+      "id": "yaml-jinja",
+      "name": "YAML & Jinja2",
+      "category": "devops",
+      "icon": "📜",
+      "level": "Advanced",
+      "description": "Designed a YAML-driven, reusable, multi-stage parameterized pipeline system."
+    },
+    {
+      "id": "rest-apis",
+      "name": "REST APIs",
+      "category": "devops",
+      "icon": "🔌",
+      "level": "Intermediate",
+      "description": "Automating job creation and talking to servers so I don't have to click buttons manually."
+    },
+    {
+      "id": "dsa",
+      "name": "Data Structures & Algorithms",
+      "category": "core-cs",
+      "icon": "🧩",
+      "level": "Advanced",
+      "description": "The foundation. Also studied formally through NPTEL's Design & Analysis of Algorithms."
+    },
+    {
+      "id": "oops",
+      "name": "OOPs",
+      "category": "core-cs",
+      "icon": "🏛️",
+      "level": "Advanced",
+      "description": "Classes, objects, and the occasional inheritance drama."
+    },
+    {
+      "id": "dbms",
+      "name": "DBMS",
+      "category": "core-cs",
+      "icon": "🗃️",
+      "level": "Advanced",
+      "description": "Database Foundations, Design, and SQL Programming, certified via Oracle Academy."
+    },
+    {
+      "id": "networking",
+      "name": "Networking",
+      "category": "core-cs",
+      "icon": "📡",
+      "level": "Intermediate",
+      "description": "CCNA-certified, and currently getting hands-on with it during my IT internship."
+    },
+    {
+      "id": "linux",
+      "name": "Linux OS",
+      "category": "core-cs",
+      "icon": "🐧",
+      "level": "Intermediate",
+      "description": "Trained on Linux administration on the job, with Red Hat System Administration II (RH134) to back it up."
+    }
+  ]
+}

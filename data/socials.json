@@ -1,0 +1,39 @@
+{
+  "items": [
+    {
+      "id": "github",
+      "label": "GitHub",
+      "url": "https://github.com/Anwesha-code",
+      "icon": "github",
+      "showInHero": true
+    },
+    {
+      "id": "linkedin",
+      "label": "LinkedIn",
+      "url": "https://www.linkedin.com/in/anwesha-singh-muj/",
+      "icon": "linkedin",
+      "showInHero": true
+    },
+    {
+      "id": "leetcode",
+      "label": "LeetCode",
+      "url": "https://leetcode.com/u/Anwesha-code/",
+      "icon": "code",
+      "showInHero": true
+    },
+    {
+      "id": "email",
+      "label": "Email",
+      "url": "mailto:anweshasingh0611@gmail.com",
+      "icon": "mail",
+      "showInHero": true
+    },
+    {
+      "id": "certificates-drive",
+      "label": "Certificate & Document Drive",
+      "url": "https://drive.google.com/drive/folders/1322ai_UvMw14MkP6JujTCPC5L_0p1aVA?usp=sharing",
+      "icon": "folder",
+      "showInHero": false
+    }
+  ]
+}

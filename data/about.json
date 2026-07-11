@@ -1,0 +1,46 @@
+{
+  "items": [
+    {
+      "id": "books",
+      "icon": "📚",
+      "label": "Bookshelf",
+      "title": "Currently reading",
+      "content": "A tall stack of cozy manhwa and a slowly-growing queue of ML papers. Both piles are, worryingly, about the same height."
+    },
+    {
+      "id": "laptop",
+      "icon": "💻",
+      "label": "Laptop",
+      "title": "What I'm building",
+      "content": "Scalable ML pipelines, time-series forecasting systems, and CI/CD workflows using Python, Jenkins, and modern data tools — with the occasional detour into networking."
+    },
+    {
+      "id": "coffee",
+      "icon": "☕",
+      "label": "Mug",
+      "title": "Fuel",
+      "content": "Contents: chai, mostly. The mug says 'coffee' but we don't talk about that."
+    },
+    {
+      "id": "plant",
+      "icon": "🌱",
+      "label": "Plant",
+      "title": "Currently growing",
+      "content": "My GitHub streak, a very stubborn succulent, and my patience during long training runs."
+    },
+    {
+      "id": "notes",
+      "icon": "📝",
+      "label": "Sticky notes",
+      "title": "Quick facts",
+      "content": "CGPA 9.07 · Dean's List (Sem 1, 2, 5, 6) · Based in Lucknow, UP · Won the Project Expo · Believes in writing documentation nobody has to ask for."
+    },
+    {
+      "id": "dog",
+      "icon": "🐾",
+      "label": "Dog bed",
+      "title": "Team member",
+      "content": "My chihuahua supervises every pull request. Approval rate: questionable, but morale is high."
+    }
+  ]
+}

@@ -1,0 +1,128 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --font-fredoka: "Fredoka", sans-serif;
+  --font-pixel: "Pixelify Sans", sans-serif;
+  --font-silkscreen: "Silkscreen", sans-serif;
+  --font-quicksand: "Quicksand", sans-serif;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  html {
+    scroll-behavior: auto;
+  }
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
+}
+
+body {
+  background-color: #fff8f3;
+  color: #6b4a3e;
+  font-family: var(--font-quicksand);
+  overflow-x: hidden;
+}
+
+/* Cute pixel-dot custom cursor. Falls back to default on touch devices. */
+@media (hover: hover) and (pointer: fine) {
+  body {
+    cursor: url("/cursor/cursor-default.svg") 4 4, auto;
+  }
+  a,
+  button,
+  [role="button"],
+  input[type="submit"],
+  .cursor-pointer {
+    cursor: url("/cursor/cursor-pointer.svg") 6 2, pointer;
+  }
+}
+
+::selection {
+  background-color: #f5a9bc;
+  color: #fff8f3;
+}
+
+/* Scrollbar */
+::-webkit-scrollbar {
+  width: 12px;
+}
+::-webkit-scrollbar-track {
+  background: #fbeee4;
+}
+::-webkit-scrollbar-thumb {
+  background-color: #f5a9bc;
+  border-radius: 8px;
+  border: 3px solid #fbeee4;
+}
+
+/* Retro-OS "window" chrome shared across every section container. */
+.pixel-window {
+  position: relative;
+  border: 3px solid #6b4a3e;
+  border-radius: 14px;
+  background-color: #fffdfa;
+  box-shadow: 5px 5px 0 rgba(107, 74, 62, 0.18);
+}
+
+.pixel-window-titlebar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 0.5rem;
+  padding: 0.4rem 0.75rem;
+  border-bottom: 3px solid #6b4a3e;
+  border-radius: 10px 10px 0 0;
+  background: repeating-linear-gradient(
+    135deg,
+    #fadce4,
+    #fadce4 10px,
+    #f6c7d6 10px,
+    #f6c7d6 20px
+  );
+}
+
+.pixel-dot {
+  width: 11px;
+  height: 11px;
+  border-radius: 50%;
+  border: 2px solid #6b4a3e;
+  display: inline-block;
+}
+
+.focus-ring:focus-visible {
+  outline: 3px dashed #8b6f8e;
+  outline-offset: 3px;
+  border-radius: 4px;
+}
+
+/* Skip link for keyboard/screen-reader users */
+.skip-link {
+  position: absolute;
+  left: -999px;
+  top: auto;
+  z-index: 100;
+  background: #fadce4;
+  color: #6b4a3e;
+  padding: 0.75rem 1.25rem;
+  border-radius: 0 0 10px 0;
+  border: 3px solid #6b4a3e;
+}
+.skip-link:focus {
+  left: 0;
+  top: 0;
+}
