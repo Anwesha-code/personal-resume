@@ -28,7 +28,7 @@ export default function Footer() {
           })}
         </div>
         <p className="flex items-center justify-center gap-1.5 font-body text-xs text-plum">
-          Made with <PixelHeart size={2} /> by {profile.displayName} · {new Date().getFullYear()}
+           <PixelHeart size={2} /> 
         </p>
       </div>
     </footer>

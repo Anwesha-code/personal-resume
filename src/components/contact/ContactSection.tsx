@@ -118,7 +118,7 @@ export default function ContactSection() {
                 {status === "sent" && "Sent! 🐦"}
               </button>
               <p className="text-center font-body text-xs text-plum">
-                This opens your email app pre-filled — nothing is sent from this page directly.
+                This opens your email app pre-filled, nothing is sent from this page directly.
               </p>
             </form>
           </div>

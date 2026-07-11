@@ -11,8 +11,8 @@ export default function TimelineSection() {
       <div className="mx-auto max-w-5xl">
         <SectionHeading
           eyebrow="Journey.exe"
-          title="My Path So Far"
-          description="A little winding trail from school to internships — follow it top to bottom."
+          title="Take a little walk with me"
+          description="A little trail covering my journey."
         />
 
         <PixelWindow appName="journey-map" icon="🌳">

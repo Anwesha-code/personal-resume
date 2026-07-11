@@ -17,9 +17,9 @@ export default function ProjectsSection() {
     <section id="projects" className="mt-14 scroll-mt-24 px-3">
       <div className="mx-auto max-w-5xl">
         <SectionHeading
-          eyebrow="Quests.exe"
+          eyebrow="SideQuests.exe"
           title="Projects"
-          description="Each project is its own little level — open one to see the tech stack, the tricky part, and what I took away from it."
+          description="Open level to see the tech stack and learnings."
         />
 
         <PixelWindow appName="quest-log" icon="🗺️">
@@ -66,11 +66,11 @@ export default function ProjectsSection() {
 
             <div className="mb-4 grid gap-3 sm:grid-cols-2">
               <div className="rounded-lg border-2 border-dashed border-plum/40 bg-blush/40 p-3">
-                <h4 className="mb-1 font-chrome text-[10px] uppercase tracking-wide text-cocoa">Challenge solved</h4>
+                <h4 className="mb-1 font-chrome text-[10px] uppercase tracking-wide text-cocoa">Challenges</h4>
                 <p className="font-body text-xs leading-relaxed text-plum">{selected.challenge}</p>
               </div>
               <div className="rounded-lg border-2 border-dashed border-plum/40 bg-mint/30 p-3">
-                <h4 className="mb-1 font-chrome text-[10px] uppercase tracking-wide text-cocoa">Lesson learned</h4>
+                <h4 className="mb-1 font-chrome text-[10px] uppercase tracking-wide text-cocoa">Learnings</h4>
                 <p className="font-body text-xs leading-relaxed text-plum">{selected.lesson}</p>
               </div>
             </div>
@@ -93,7 +93,7 @@ export default function ProjectsSection() {
                   rel="noopener noreferrer"
                   className="focus-ring flex items-center gap-1.5 rounded-lg border-2 border-cocoa bg-petal px-3 py-1.5 font-body text-xs font-semibold text-cream hover:-translate-y-0.5"
                 >
-                  <ExternalLink size={14} /> Live demo
+                  <ExternalLink size={14} /> Website
                 </a>
               )}
             </div>

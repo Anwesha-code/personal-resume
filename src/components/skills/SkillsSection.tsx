@@ -24,8 +24,8 @@ export default function SkillsSection() {
       <div className="mx-auto max-w-5xl">
         <SectionHeading
           eyebrow="Inventory.exe"
-          title="Skills Collection"
-          description="Every badge here was earned through a project, an internship, or a very long night. Click one to inspect it."
+          title="Skills"
+          description="Click icons to inspect."
         />
 
         <PixelWindow appName="inventory" icon="🎒">
