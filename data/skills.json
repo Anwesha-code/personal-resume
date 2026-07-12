@@ -20,7 +20,7 @@
       "name": "C++",
       "category": "programming",
       "icon": "🔩",
-      "level": "Intermediate"
+      "level": "Advanced"
       
     },
     {
@@ -28,7 +28,7 @@
       "name": "C",
       "category": "programming",
       "icon": "⚙️",
-      "level": "Intermediate"
+      "level": "Advanced"
      
     },
     {
@@ -52,7 +52,7 @@
       "name": "TensorFlow",
       "category": "ml",
       "icon": "🧠",
-      "level": "Intermediate"
+      "level": "Advanced"
 
     },
     {
@@ -60,7 +60,7 @@
       "name": "Neural Networks",
       "category": "ml",
       "icon": "✨",
-      "level": "Intermediate"
+      "level": "Advanced"
 
     },
     {
@@ -84,7 +84,7 @@
       "name": "Model Evaluation & Tuning",
       "category": "ml",
       "icon": "📊",
-      "level": "Intermediate"
+      "level": "Advanced"
 
     },
     {
@@ -92,7 +92,7 @@
       "name": "Jenkins",
       "category": "devops",
       "icon": "🤖",
-      "level": "Advanced"
+      "level": "Intermediate"
 
     },
     {
@@ -116,7 +116,7 @@
       "name": "YAML & Jinja2",
       "category": "devops",
       "icon": "📜",
-      "level": "Advanced"
+      "level": "Intermediate"
 
     },
     {
@@ -140,7 +140,7 @@
       "name": "OOPs",
       "category": "core-cs",
       "icon": "🏛️",
-      "level": "Advanced"
+      "level": "Intermediate"
 
     },
     {
