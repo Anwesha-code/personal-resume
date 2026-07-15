@@ -24,10 +24,10 @@
       "period": "May 2026 - Jul 2026",
       "icon": "🏭",
       "points": [
-        "Received hands-on training in Networking and Linux Operating System administration.",
-        "Assisted IT team in network administration, troubleshooting LAN connectivity, and Network Diagnostics.",
-        "Learned enterprise network security concepts such as firewalls, proxy servers, IAM, VPNs, VLAN segmentation, and Zero Trust Architecture.",
-        "Observed the security best practices followed in enterprise networks."
+        "Gained hands-on exposure to enterprise Linux system administration.",
+        "Assisted IT team in diagnosing LAN and DNS connectivity issues using a structured OSI layer approach.",
+        "Gained applied exposure to security architecture at enterprises: including firewalls, VPNs, IAM, VLAN segmentation, and Zero Trust Architecture.",
+        "Observed the security best practices followed in enterprise networks. Independently studied host-based Linux Firewall (iptables, nftables, firewalld).."
       ],
       "order": 5
     }
