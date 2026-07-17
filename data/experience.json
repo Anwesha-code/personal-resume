@@ -27,8 +27,9 @@
         "Gained hands-on exposure to enterprise Linux system administration.",
         "Assisted IT team in diagnosing LAN and DNS connectivity issues using a structured OSI layer approach.",
         "Gained applied exposure to security architecture at enterprises: including firewalls, VPNs, IAM, VLAN segmentation, and Zero Trust Architecture.",
-        "Observed the security best practices followed in enterprise networks. Independently studied host-based Linux Firewall (iptables, nftables, firewalld).."
+        "Observed the security best practices followed in enterprise networks. Independently studied host-based Linux Firewall (iptables, nftables, firewalld)."
       ],
+      "certificateNote": "Completion certificate available in the verification drive.",
       "order": 5
     }
   ]
